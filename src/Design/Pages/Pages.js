@@ -5,6 +5,7 @@ import AboutUs from "./AboutUs";
 import Services from "./Services";
 import Gallery from "./Gallery";
 import Contact from "./Contact";
+import Details from "./Details";
 
 export default function Pages() {
   return (
@@ -15,6 +16,7 @@ export default function Pages() {
         <Route path="/services" element={<Services />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/details" element={<Details />} />
       </Routes>
     </div>
   );
