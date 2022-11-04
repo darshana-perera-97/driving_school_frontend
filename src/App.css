@@ -42,3 +42,19 @@
 p {
   margin: 0px
 }
+
+#menuBarLink {
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  margin: 0;
+  padding-left: 20px;
+
+}
+
+#menuBarLink:hover {
+  /* color: rgb(255, 0, 0); */
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  /* text-shadow:2px 2px 5px white */
+}
