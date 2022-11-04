@@ -8,7 +8,7 @@ import Contact from "./Contact";
 
 export default function Pages() {
   return (
-    <div>
+    <div style={{ padding: "55px 50px", height: "100%" }}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutUs />} />
