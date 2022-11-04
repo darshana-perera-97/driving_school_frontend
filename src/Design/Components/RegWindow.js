@@ -10,7 +10,6 @@ import DialogTitle from "@mui/material/DialogTitle";
 
 export default function RegWindow() {
   const [open, setOpen] = React.useState(false);
-  const [usr, setUsr] = React.useState([]);
   const msj = () => {
     window.alert("Login to System Successfully");
   };
@@ -26,8 +25,12 @@ export default function RegWindow() {
 
   return (
     <div>
-      <Button variant="outlined" onClick={handleClickOpen}>
-        User_Login
+      <Button
+        variant="outlined"
+        onClick={handleClickOpen}
+        style={{ marginLeft: "20px" }}
+      >
+        User_Register
       </Button>
       <Dialog open={open} onClose={handleClose}>
         <DialogTitle>User Login</DialogTitle>
